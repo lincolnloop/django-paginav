@@ -8,9 +8,6 @@ setup(
     author_email='smileychris@gmail.com',
     url='http://github.com/LincolnLoop/django-paginav',
     packages=find_packages(),
-    install_requires=['oauth2',
-                  'python-openid',
-                  'django-email-confirmation'],
     include_package_data=True,
     package_data={'paginav': ['templates/*.*']},
     classifiers=[
