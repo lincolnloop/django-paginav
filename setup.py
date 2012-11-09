@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-paginav',
-    version='1.0a',
+    version='1.1',
     description=("A Django template pagination navigation tag."),
     author='Chris Beaven',
     author_email='smileychris@gmail.com',

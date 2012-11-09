@@ -72,6 +72,8 @@ class Paginav(ttag.Tag):
     page_var = ttag.StringArg(keyword=True, default='page')
 
     def output(self, data):
+        if not data.get('page'):
+            return ''
         return template.loader.render_to_string(
             data['template'],
             self.get_context(data)
